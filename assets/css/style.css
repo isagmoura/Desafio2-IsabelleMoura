@@ -65,10 +65,15 @@ input {
   opacity: 0px;
 }
 
+#lupa {
+  display: none;ed
+}
+
 .nav-icons {
   display: flex;
   align-items: center;
   margin-left: 1rem;
+  gap: 12px;
 }
 
 .mobile-menu-icon {
@@ -86,6 +91,10 @@ input {
   .input-search {
     display: none;
   }
+
+  #lupa {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 730px) {
@@ -96,4 +105,10 @@ input {
   .nav-item {
     display: none;
   }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  
 }
