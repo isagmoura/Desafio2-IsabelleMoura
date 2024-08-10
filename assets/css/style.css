@@ -27,6 +27,7 @@
 .nav-list {
   display: flex;
   align-items: center;
+  text-wrap: nowrap;
 }
 
 .nav-list ul {
@@ -52,6 +53,9 @@
 .input-search {
   border: none;
   background-color: #f0f0f0;
+
+  width: 100%;
+  max-width: 576px;
 }
 
 input {
@@ -62,8 +66,9 @@ input {
 }
 
 .nav-icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
 }
 
 .mobile-menu-icon {
@@ -74,19 +79,13 @@ input {
   display: none;
 }
 
-@media screen and (max-width: 1345px) {
-  .nav-bar {
-    padding: 1.5rem 4rem;
-  }
+@media screen and (max-width: 390px) {
+}
 
-  .nav-item {
-    display: none;
-  }
-
+@media screen and (max-width: 1000px) {
   .input-search {
     display: none;
   }
-  
 }
 
 @media screen and (max-width: 730px) {
@@ -95,10 +94,6 @@ input {
   }
 
   .nav-item {
-    display: none;
-  }
-
-  .input-search {
     display: none;
   }
 }
