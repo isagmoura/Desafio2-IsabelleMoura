@@ -5,6 +5,6 @@ function menuShow() {
     document.querySelector(".icon").src = "assets/img/tres linhas icon.png";
   } else {
     menuMobile.classList.add("open");
-    document.querySelector(".icon").src = "assets/img/close.png";
+    document.querySelector(".icon").src = "assets/img/close2.png";
   }
 }
