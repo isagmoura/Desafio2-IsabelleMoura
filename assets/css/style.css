@@ -147,6 +147,7 @@ footer {
   gap: 0.75rem;
   list-style: none;
   width: fit-content;
+  padding-top: 9px;
 }
 
 .footer-list .footer-link {
@@ -192,9 +193,25 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 450px) {
   #footer_content {
     grid-template-columns: repeat(1, fr);
+  }
+
+  #footer_meio {
+    padding: 1.5rem 1.5rem;
+  }
+
+  #footer-end {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #copyright {
+    padding-top: 16px;
   }
 }
 
