@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   font-family: "Satoshi", "Integral CF Bold", sans-serif;
+  box-sizing: border-box;
 }
 
 .nav-bar {
@@ -103,6 +104,52 @@ input::placeholder {
   display: none;
 }
 
+footer {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 6rem;
+  gap: 20px;
+}
+
+#footer_contacts {
+  max-width: 248px;
+}
+
+#footer_contacts h2 {
+  font-family: "Integral CF Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.2rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  width: fit-content;
+}
+
+.footer-list .footer-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#footer-p {
+  font-size: 0.875rem;
+}
+
 @media screen and (max-width: 390px) {
 }
 
@@ -114,6 +161,15 @@ input::placeholder {
   #lupa {
     display: block;
   }
+}
+
+#footer_copyright {
+  border-top: #000000;
+}
+
+#footer-end {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 730px) {
@@ -151,5 +207,9 @@ input::placeholder {
 
   .open {
     display: block;
+  }
+
+  #footer_content {
+    padding: 1.5rem 1.5rem;
   }
 }
