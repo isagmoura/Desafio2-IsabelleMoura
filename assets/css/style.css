@@ -127,6 +127,12 @@ footer {
   margin-bottom: 1rem;
 }
 
+.h3_footer_list {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 1);
+}
+
 #footer_social_media {
   display: flex;
   gap: 1rem;
@@ -150,6 +156,34 @@ footer {
   font-size: 0.875rem;
 }
 
+#footer_copyright {
+  border-top: #000000;
+}
+
+#footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding-bottom: 4rem;
+  border-top: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+#footer_payments {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  max-width: 315px;
+}
+
+#copyright {
+  font-family: "Satoshi", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #000000;
+}
+
 @media screen and (max-width: 390px) {
 }
 
@@ -161,15 +195,6 @@ footer {
   #lupa {
     display: block;
   }
-}
-
-#footer_copyright {
-  border-top: #000000;
-}
-
-#footer-end {
-  display: flex;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 730px) {
