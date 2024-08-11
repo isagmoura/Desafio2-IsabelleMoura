@@ -112,8 +112,9 @@ footer {
 #footer_content {
   display: flex;
   justify-content: space-between;
-  padding: 8rem 6rem;
+  padding: 6rem 6rem;
   gap: 20px;
+  padding-bottom: 1.5rem;
 }
 
 #footer_contacts {
