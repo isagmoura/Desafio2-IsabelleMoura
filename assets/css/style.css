@@ -199,6 +199,83 @@ button {
   color: rgba(0, 0, 0, 0.6);
 }
 
+#section_brands {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#brands {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 3rem 6rem;
+}
+
+#brands li {
+  list-style: none;
+}
+
+#brands li a {
+  text-decoration: none;
+}
+
+#new_arrivals {
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-top: 5rem;
+}
+
+#top_selling {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 2.7rem;
+  border-radius: 20px;
+}
+
+.second_title {
+  font-family: "Integral CF Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.view-btn {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 218px;
+  height: 52px;
+  top: 1548px;
+  left: 611px;
+  padding: 16px 54px 16px 54px;
+  gap: 12px;
+  border-radius: 62px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.view-all {
+  text-decoration: none;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 6rem;
+}
+
 footer {
   width: 100%;
   background-color: #f0f0f0;
