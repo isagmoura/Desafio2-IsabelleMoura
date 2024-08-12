@@ -104,6 +104,101 @@ input::placeholder {
   display: none;
 }
 
+main {
+  background-image: url("../img/home-couple.png");
+  padding-right: 6rem;
+  padding-left: 6rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 663px;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#cta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Integral CF Bold", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  max-width: 577px;
+  padding-top: 5rem;
+}
+
+.description {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 545px;
+}
+
+button {
+  width: 210px;
+  height: 52px;
+  top: 507px;
+  left: 100px;
+  padding: 16px 54px 16px 54px;
+  gap: 12px;
+  border-radius: 62px;
+  opacity: 0px;
+  border: none;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.btn-default {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+#main_list_home {
+  display: flex;
+  justify-content: space-between;
+  max-width: 596px;
+  height: 74px;
+  top: 607px;
+  left: 100px;
+  gap: 32px;
+}
+
+.main_list {
+  list-style: none;
+}
+
+.h2_main_list {
+  font-family: "Satoshi", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.main_li {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 footer {
   width: 100%;
   background-color: #f0f0f0;
@@ -189,28 +284,6 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (max-width: 450px) {
-  #footer_content {
-    grid-template-columns: repeat(1, fr);
-  }
-
-  #footer_meio {
-    padding: 1.5rem 1.5rem;
-  }
-
-  #footer-end {
-    display: flex;
-    flex-direction: column;
-    border-top: rgba(0, 0, 0, 0.1) 1px solid;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  #copyright {
-    padding-top: 16px;
-  }
-}
-
 @media screen and (max-width: 1000px) {
   .input-wrapper {
     display: none;
@@ -260,5 +333,27 @@ footer {
 
   #footer_content {
     padding: 1.5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #footer_content {
+    grid-template-columns: repeat(1, fr);
+  }
+
+  #footer_meio {
+    padding: 1.5rem 1.5rem;
+  }
+
+  #footer-end {
+    display: flex;
+    flex-direction: column;
+    border-top: rgba(0, 0, 0, 0.1) 1px solid;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #copyright {
+    padding-top: 16px;
   }
 }
