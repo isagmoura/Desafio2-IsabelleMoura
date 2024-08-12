@@ -337,6 +337,103 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+  .nav-bar {
+    padding-left: 1.2rem;
+    padding-right: 0;
+  }
+
+  main {
+    background-image: url("../img/home-couple.png");
+    padding-right: 0rem;
+    padding-left: 1.2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 663px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #cta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title {
+    font-family: "Integral CF Bold", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  .description {
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-width: 358px;
+  }
+
+  button {
+    width: 358px;
+    height: 52px;
+    top: 325px;
+    left: 16px;
+    padding: 16px 54px 16px 54px;
+    gap: 12px;
+    border-radius: 62px;
+    opacity: 0px;
+  }
+
+  .btn-default {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+  }
+
+  #main_list_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 596px;
+    height: 74px;
+    top: 607px;
+    left: 100px;
+    gap: 32px;
+  }
+
+  .main_list {
+    list-style: none;
+  }
+
+  .h2_main_list {
+    font-family: "Integral CF";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  .main_li {
+    font-family: "Satoshi", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
   #footer_content {
     grid-template-columns: repeat(1, fr);
   }
