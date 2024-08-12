@@ -232,7 +232,7 @@ button {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   padding-top: 2.7rem;
   border-radius: 20px;
 }
@@ -274,6 +274,41 @@ button {
   justify-content: center;
   padding-top: 1.5rem;
   padding-bottom: 6rem;
+}
+
+#styles {
+  padding-right: 6rem;
+  padding-left: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+#style {
+  text-align: center;
+  font-family: "Integral CF Bold", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+#dress_style {
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 40px;
+  width: 100%;
+}
+
+#first_group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#second_group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 3rem;
 }
 
 footer {
