@@ -639,30 +639,21 @@ footer {
 
 @media screen and (max-width: 450px) {
   .nav-bar {
-    padding-left: 1.2rem;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    max-width: 390px;
   }
 
   main {
-    background-image: url("../img/home-couple.png");
-    padding-right: 0rem;
-    padding-left: 1.2rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 663px;
+    background-image: none;
   }
 
-  #home {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  #cta {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  #main_content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    max-width: 390px;
   }
 
   .title {
@@ -671,6 +662,7 @@ footer {
     font-weight: 700;
     line-height: 34px;
     text-align: left;
+    padding-top: 2.5rem;
   }
 
   .description {
@@ -679,10 +671,10 @@ footer {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    max-width: 358px;
+    padding-bottom: 4px;
   }
 
-  button {
+  #shop-now {
     width: 358px;
     height: 52px;
     top: 325px;
@@ -690,68 +682,168 @@ footer {
     padding: 16px 54px 16px 54px;
     gap: 12px;
     border-radius: 62px;
-    opacity: 0px;
   }
 
-  .btn-default {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-    font-family: Satoshi;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21.6px;
-    text-align: left;
+  #home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   #main_list_home {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 596px;
-    height: 74px;
-    top: 607px;
-    left: 100px;
-    gap: 32px;
   }
 
-  .main_list {
-    list-style: none;
+  #brands {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 21px;
+    align-items: center;
   }
 
-  .h2_main_list {
-    font-family: "Integral CF";
-    font-size: 36px;
+  #versace {
+    width: 116.74px;
+    height: 23.25px;
+  }
+
+  #zara {
+    width: 63.81px;
+    height: 26.65px;
+    padding: 0.01px 0px 0.01px 0px;
+  }
+
+  #gucci {
+    width: 109.39px;
+    height: 25.24px;
+    padding: 1.3px 0px 1.3px 0px;
+  }
+
+  #prada {
+    width: 127px;
+    height: 21px;
+    padding: 0.26px 0px 0.26px 0px;
+  }
+
+  #ck {
+    width: 134.84px;
+    height: 21.75px;
+  }
+
+  #new_arrivals {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 50px;
+  }
+
+  .second_title {
+    font-family: "Integral CF Bold", sans-serif;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 34px;
-    text-align: left;
+    line-height: 38.4px;
+    text-align: center;
   }
 
-  .main_li {
+  .cards {
+    justify-content: unset;
+  }
+
+  .card_image {
+    width: 198px;
+    height: 200.01px;
+    top: 1217px;
+    left: 16px;
+    gap: 0px;
+    border-radius: 13.42px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .cloth-title {
     font-family: "Satoshi", sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
+    font-weight: 700;
+    line-height: 21.6px;
     text-align: left;
-    color: rgba(0, 0, 0, 0.6);
   }
 
-  #footer_content {
-    grid-template-columns: repeat(1, fr);
+  .stars {
+    width: 127px;
+    height: 16px;
+    top: 1453.01px;
+    left: 16px;
+    gap: 11px;
+    opacity: 0px;
+    box-sizing: content-box;
   }
 
-  #footer_meio {
-    padding: 1.5rem 1.5rem;
+  .preco-cortado {
+    width: 42px;
+    height: 20px;
   }
 
-  #footer-end {
+  .price {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .promotion {
+    gap: 5px;
+  }
+
+  .discount-button {
+    font-family: "Satoshi", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.5px;
+    text-align: left;
+    width: 42px;
+    height: 20px;
+    text-align: center;
+    border-radius: 62px;
+    padding: 0;
+  }
+
+  #top_selling {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .button-container {
     display: flex;
-    flex-direction: column;
-    border-top: rgba(0, 0, 0, 0.1) 1px solid;
-    margin-left: 0;
-    margin-right: 0;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .view-btn {
+    display: flex;
+    justify-content: center;
+    width: 358px;
+    height: 46px;
+    align-items: center;
+    text-align: center;
   }
 
-  #copyright {
-    padding-top: 16px;
+  .view-all {
+    width: 51px;
+    height: 19px;
+    text-align: center;
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  #styles {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 50px;
   }
 }
