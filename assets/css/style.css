@@ -1,10 +1,11 @@
 @import url(https://db.onlinewebfonts.com/c/b52804ac57ef6e90d2826a6b0f111133?family=Integral+CF+Bold);
 @import url(https://db.onlinewebfonts.com/c/2bf16335573007d828f4197c2b884c04?family=Satoshi);
+@import url(https://db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF+Regular);
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Satoshi", "Integral CF Bold", sans-serif;
+  font-family: "Satoshi", "Integral CF Bold", "Integral CF Regular", sans-serif;
   box-sizing: border-box;
 }
 
@@ -144,7 +145,7 @@ main {
   max-width: 545px;
 }
 
-button {
+#shop-now {
   width: 210px;
   height: 52px;
   top: 507px;
@@ -227,13 +228,14 @@ button {
 #top_selling {
   padding-right: 6rem;
   padding-left: 6rem;
+  padding-top: 4rem;
 }
 
 .cards {
   display: flex;
   justify-content: center;
   gap: 15px;
-  padding-top: 2.7rem;
+  padding-top: 3.438rem;
   border-radius: 20px;
 }
 
@@ -244,6 +246,52 @@ button {
   line-height: 57.6px;
   text-align: center;
   color: rgba(0, 0, 0, 1);
+}
+
+.cloth-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 10px;
+}
+
+.stars {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.price {
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+}
+
+.promotion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.discount-button {
+  width: 58px;
+  height: 28px;
+  padding: 6px 14px 6px 14px;
+  gap: 12px;
+  border-radius: 62px;
+  opacity: 0px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: rgba(255, 51, 51, 1);
+  font-family: "Satoshi", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  text-align: left;
+  border: none;
 }
 
 .view-btn {
@@ -272,8 +320,9 @@ button {
 .button-container {
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #styles {
@@ -317,6 +366,7 @@ button {
 #comments {
   padding-left: 6rem;
   padding-right: 6rem;
+  padding-bottom: 15rem;
   display: flex;
   flex-direction: column;
   margin-top: 6rem;
@@ -360,18 +410,105 @@ button {
   color: rgba(0, 0, 0, 1);
 }
 
-.check {
+#formulario {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+  margin-top: 6rem;
+  height: 180px;
+  margin: 6rem auto;
+  border-radius: 20px;
+  position: absolute;
+  left: calc(50% - 1240px / 2);
+  top: -185px;
+}
+
+#h2_form {
+  display: flex;
+  align-items: center;
+  width: 551px;
+}
+
+#h2-form-stay {
+  font-family: "Integral CF Bold", sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  height: 94px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#form {
+  display: flex;
+  width: 350px;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 62px;
+}
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 62px;
+  width: 349px;
+  margin-bottom: 14px;
+}
+
+.search-input {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 12px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.search-icon {
+  padding-left: 16px;
+}
+
+#subscribe {
+  width: 349px;
+  height: 48px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 62px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
 }
 
 footer {
   width: 100%;
   background-color: #f0f0f0;
+  position: relative;
 }
 
 #footer_content {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 6rem;
+  padding: 8rem 6rem;
   gap: 20px;
   padding-bottom: 1.5rem;
 }

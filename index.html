@@ -90,7 +90,9 @@
             style.
           </p>
           <div id="cta_button">
-            <button><a href="#" class="btn-default">Shop Now</a></button>
+            <button id="shop-now">
+              <a href="#" class="btn-default">Shop Now</a>
+            </button>
           </div>
         </div>
         <div id="main_list_home">
@@ -148,6 +150,15 @@
               src="assets/img/blusa-preta.png"
               alt="T-SHIRT WITH TAPE DETAILS"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">T-shirt with Tape Details</p>
+            <img
+              class="stars"
+              src="assets/img/4.5-estrelas.png"
+              alt="4.5 rating stars"
+            />
+            <p class="price">$120</p>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -156,6 +167,19 @@
               src="assets/img/calca-jeans.png"
               alt="SKINNY FIT JEANS"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Skinny Fit Jeans</p>
+            <img
+              class="stars"
+              src="assets/img/3.5-estrelas.png"
+              alt="3.5 rating stars"
+            />
+            <div class="promotion">
+              <p class="price">$120</p>
+              <img src="assets/img/$260-cortado.png" alt="Promo price" />
+              <button class="discount-button">-20%</button>
+            </div>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -164,6 +188,15 @@
               src="assets/img/blusa-xadrez.png"
               alt="CHECKERED SHIRT"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Checkered Shirt</p>
+            <img
+              class="stars"
+              src="assets/img/4.5-estrelas.png"
+              alt="4.5 rating stars"
+            />
+            <p class="price">$180</p>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -172,6 +205,19 @@
               src="assets/img/blusa-laranja-e-preta.png"
               alt="SLEEVE STRIPED T-SHIRT"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Sleeve Striped T-shirt</p>
+            <img
+              class="stars"
+              src="assets/img/4.5-estrelas.png"
+              alt="4.5 rating stars"
+            />
+            <div class="promotion">
+              <p class="price">$130</p>
+              <img src="assets/img/$160-cortado.png" alt="Promo price" />
+              <button class="discount-button">-30%</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="button-container">
@@ -190,6 +236,19 @@
               src="assets/img/blusa-verde.png"
               alt="VERTICAL STRIPED SHIRT"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Vertical Striped Shirt</p>
+            <img
+              class="stars"
+              src="assets/img/5.0-estrelas.png"
+              alt="5.0 rating stars"
+            />
+            <div class="promotion">
+              <p class="price">$212</p>
+              <img src="assets/img/$232-cortado.png" alt="Promo price" />
+              <button class="discount-button">-20%</button>
+            </div>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -198,6 +257,15 @@
               src="assets/img/blusa-laranja.png"
               alt="COURAGE GRAPHIC T-SHIRT"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Courage Graphic T-shirt</p>
+            <img
+              class="stars"
+              src="assets/img/4.0-estrelas.png"
+              alt="4.0 rating stars"
+            />
+            <p class="price">$145</p>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -206,6 +274,15 @@
               src="assets/img/bermuda-jeans.png"
               alt="LOOSE FIT BERMUDA SHORTS"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Loose Fit Bermuda Shorts</p>
+            <img
+              class="stars"
+              src="assets/img/3.0-estrelas.png"
+              alt="3.0 rating stars"
+            />
+            <p class="price">$80</p>
+          </div>
         </div>
         <div class="card_item">
           <a class="card_link" href="#"
@@ -214,6 +291,15 @@
               src="assets/img/calca-jeans-preta.png"
               alt="FADED SKINNY JEANS"
           /></a>
+          <div class="cards-description">
+            <p class="cloth-title">Faded Skinny Jeans</p>
+            <img
+              class="stars"
+              src="assets/img/4.5-estrelas.png"
+              alt="4.5 rating stars"
+            />
+            <p class="price">$210</p>
+          </div>
         </div>
       </div>
       <div class="button-container">
@@ -325,23 +411,35 @@
         </div>
       </div>
     </div>
-    <section id="formulario">
-      <div id="h2_form">
-        <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
-      </div>
-      <div id="form">
-        <form action="#">
-          <button id="btn-email">
-            <img src="assets/img/caixa_email.png" alt="email icon" /> Enter your
-            email address
-          </button>
-          <button id="subscribe">
-            <a href="#">Subscribe to Newsletter</a>
-          </button>
-        </form>
-      </div>
-    </section>
+
     <footer>
+      <section id="formulario">
+        <div id="h2_form">
+          <h2 id="h2-form-stay">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+        </div>
+        <div id="form">
+          <form action="#">
+            <div class="search">
+              <img
+                class="search-icon"
+                src="assets/img/caixa_email.png"
+                alt="email icon"
+              />
+              <input
+                type="text"
+                name="search"
+                class="search-input"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="btns">
+              <button id="subscribe">
+                <a href="#">Subscribe to Newsletter</a>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
       <div id="footer_content">
         <div id="footer_contacts">
           <h2>SHOP.CO</h2>
