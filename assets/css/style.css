@@ -223,6 +223,7 @@ main {
   padding-right: 6rem;
   padding-left: 6rem;
   padding-top: 5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #top_selling {
@@ -299,8 +300,6 @@ main {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 218px;
   height: 52px;
-  top: 1548px;
-  left: 611px;
   padding: 16px 54px 16px 54px;
   gap: 12px;
   border-radius: 62px;
@@ -317,12 +316,65 @@ main {
   text-align: left;
 }
 
+#casual {
+  background-image: url(../img/casual.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 44% 38.5%;
+  background-size: 207%;
+  width: 470px;
+  height: 289px;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+
+#formal {
+  background-image: url(../img/formal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 1% 25.9%;
+  background-size: 190%;
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+}
+
+#party {
+  background-image: url(../img/party.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 5% 49%;
+  background-size: 120%;
+  width: 684px;
+  height: 289px;
+  top: 501px;
+  left: 64px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+
+#second_group {
+  display: flex;
+  justify-content: center;
+}
+
+#gym {
+  background-image: url(../img/gym.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25% 35%;
+  background-size: 110%;
+  width: 470px;
+  height: 289px;
+  border-radius: 20px;
+}
+
 .button-container {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 2.25rem;
   padding-bottom: 5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #styles {
@@ -354,13 +406,17 @@ main {
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 #second_group {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 3rem;
+  padding-bottom: 76px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 #comments {
@@ -844,6 +900,56 @@ footer {
   #styles {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #style {
+    padding-top: 40px;
+    font-family: "Integral CF Bold";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  #first_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #casual {
+    display: flex;
+    justify-content: center;
+  }
+
+  #formal {
+    display: flex;
+    justify-content: center;
+  }
+
+  #party {
+    display: flex;
+    justify-content: center;
+  }
+
+  #second_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #gym {
+    display: flex;
+    justify-content: center;
+  }
+
+  .outfit {
+    width: 310px;
+    height: 190px;
+    border-radius: 20px;
   }
 }
