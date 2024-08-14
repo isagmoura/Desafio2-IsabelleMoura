@@ -224,12 +224,14 @@ main {
   padding-left: 6rem;
   padding-top: 5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
 }
 
 #top_selling {
   padding-right: 6rem;
   padding-left: 6rem;
   padding-top: 4rem;
+  /* overflow: hidden; */
 }
 
 .cards {
@@ -317,14 +319,13 @@ main {
 }
 
 #casual {
-  background-image: url(../img/casual.png);
+  background-image: url(../img/casual-espelhada.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 44% 38.5%;
   background-size: 207%;
-  width: 470px;
+  width: 407px;
   height: 289px;
-  transform: rotateY(180deg);
   border-radius: 20px;
 }
 
@@ -347,27 +348,36 @@ main {
   background-size: 120%;
   width: 684px;
   height: 289px;
-  top: 501px;
-  left: 64px;
-  gap: 0px;
   border-radius: 20px;
-  opacity: 0px;
-}
-
-#second_group {
-  display: flex;
-  justify-content: center;
 }
 
 #gym {
   background-image: url(../img/gym.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -25% 35%;
+  background-position: -85% 38%;
   background-size: 110%;
-  width: 470px;
+  width: 407px;
   height: 289px;
   border-radius: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text-dress-style {
+  padding-left: 36px;
+  padding-top: 25px;
+  font-family: "Satoshi", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+#second_group {
+  display: flex;
+  justify-content: center;
 }
 
 .button-container {
@@ -437,6 +447,7 @@ main {
 #arrows {
   display: flex;
   gap: 16px;
+  align-items: end;
 }
 
 .comment {
@@ -464,6 +475,8 @@ main {
   line-height: 57.6px;
   text-align: left;
   color: rgba(0, 0, 0, 1);
+  width: 654px;
+  height: 58px;
 }
 
 #formulario {
@@ -794,6 +807,7 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 50px;
+    overflow: hidden;
   }
 
   .second_title {
@@ -908,48 +922,183 @@ footer {
 
   #style {
     padding-top: 40px;
-    font-family: "Integral CF Bold";
+    font-family: "Integral CF Bold", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
     text-align: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 18px;
+  }
+
+  #casual {
+    background-image: url(../img/casual-espelhada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 44% 38.5%;
+    background-size: 207%;
+    width: 310px;
+    height: 190px;
+    border-radius: 20px;
+  }
+
+  #formal {
+    background-image: url(../img/formal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1% 25.9%;
+    background-size: 190%;
+    width: 310px;
+    height: 190px;
+    border-radius: 20px;
+  }
+
+  #party {
+    width: 310px;
+    height: 190px;
+  }
+
+  #gym {
+    background-image: url(../img/gym.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -85% 38%;
+    background-size: 110%;
+    width: 310px;
+    height: 190px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .text-dress-style {
+    padding-left: 24px;
+    padding-top: 16px;
+    font-family: "Satoshi", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
   }
 
   #first_group {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  #casual {
-    display: flex;
-    justify-content: center;
-  }
-
-  #formal {
-    display: flex;
-    justify-content: center;
-  }
-
-  #party {
-    display: flex;
-    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   #second_group {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 27px;
   }
 
-  #gym {
-    display: flex;
-    justify-content: center;
+  #comments {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 50px;
+    gap: 24px;
+    overflow: hidden;
+    padding-bottom: 49.81px;
   }
 
-  .outfit {
-    width: 310px;
-    height: 190px;
+  #h2_comments {
+    font-family: "Integral CF Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    width: 286px;
+    height: 72px;
+  }
+
+  #arrows {
+    align-items: end;
+  }
+
+  .comment {
+    min-width: 358px;
+    height: 186.19px;
     border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+
+  .stars-5 {
+    width: 118px;
+    height: 19.19px;
+  }
+
+  .name {
+    font-family: "Satoshi", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+
+  .avaliacao {
+    font-family: "Satoshi", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    min-width: 283px;
+  }
+
+  #section_of_comments {
+    justify-content: unset;
+  }
+
+  .check {
+    width: 19px;
+    height: 19px;
+    box-sizing: content-box;
+  }
+
+  #formulario {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    max-width: 358px;
+    margin-top: 0;
+    margin: 0;
+    border-radius: 20px;
+    position: absolute;
+    left: 15px;
+    top: -92.5px;
+    gap: 32px;
+  }
+
+  #h2_form {
+    max-width: 297px;
+  }
+
+  #h2-form-stay {
+    width: 297px;
+    height: 105px;
+    font-family: "Integral CF Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    padding-top: 32px;
+    padding-left: 16px;
+  }
+
+  .search {
+    width: 311px;
+    height: 42px;
   }
 }
