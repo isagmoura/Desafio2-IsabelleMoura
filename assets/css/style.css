@@ -1420,7 +1420,6 @@ footer {
   #first-order {
     display: flex;
     justify-content: center;
-    max-width: ;
     width: 301px;
     height: 16px;
   }
