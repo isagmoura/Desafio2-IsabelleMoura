@@ -742,6 +742,10 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
 .company {
   list-style: none;
   width: 91px;
