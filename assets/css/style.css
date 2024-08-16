@@ -308,13 +308,16 @@ main {
 }
 
 #new_arrivals {
+  padding-right: 6.25rem;
+  padding-left: 6.25rem;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+#cloth_divider {
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: 6.25rem;
   margin-right: 6.25rem;
-  padding-right: 0rem;
-  padding-left: 0rem;
-  padding-top: 5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  overflow: hidden;
 }
 
 #top_selling {
@@ -524,10 +527,10 @@ main {
 #comments {
   padding-left: 0rem;
   padding-right: 0rem;
-  padding-bottom: 15rem;
+  padding-bottom: 11rem;
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 5rem;
   gap: 40px;
   overflow: hidden;
 }
@@ -1028,10 +1031,13 @@ footer {
   #new_arrivals {
     padding-left: 1rem;
     padding-right: 1rem;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
     padding-top: 50px;
-    overflow: hidden;
+    overflow: auto;
+  }
+
+  #cloth_divider {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .second_title {
