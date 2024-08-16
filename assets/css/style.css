@@ -242,6 +242,10 @@ main {
   color: rgba(0, 0, 0, 1);
 }
 
+.main_list_divider {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
 .main_li {
   font-family: "Satoshi", sans-serif;
   font-size: 16px;
@@ -916,6 +920,11 @@ footer {
     font-size: 24px;
     line-height: 32.4px;
     text-align: left;
+  }
+
+  .main_list_divider:last-of-type {
+    border-color: red;
+    display: none;
   }
 
   .main_li {
