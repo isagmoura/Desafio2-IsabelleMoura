@@ -175,7 +175,6 @@ main {
 #cta {
   display: flex;
   flex-direction: column;
-  gap: 32px;
 }
 
 .title {
@@ -194,6 +193,8 @@ main {
   text-align: left;
   color: rgba(0, 0, 0, 0.6);
   max-width: 545px;
+  margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 #shop-now {
@@ -860,7 +861,7 @@ footer {
     background-image: url(../img/home-couple-390px.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 40% 100%;
+    background-position: 40% 105%;
   }
 
   #main_content {
@@ -868,7 +869,7 @@ footer {
     padding-right: 1rem;
     width: 100%;
     max-width: 390px;
-    height: 880px;
+    height: 853px;
     background-color: rgba(242, 240, 241, 1);
   }
 
@@ -878,7 +879,7 @@ footer {
     font-weight: 700;
     line-height: 34px;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
   .description {
@@ -904,6 +905,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 485px;
   }
 
   #main_list_home {
