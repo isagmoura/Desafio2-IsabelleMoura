@@ -169,13 +169,13 @@ main {
 #home {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 48px;
 }
 
 #cta {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 32px;
 }
 
 .title {
@@ -259,7 +259,9 @@ main {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 3rem 6.25rem;
+  height: 122px;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
   align-items: center;
   overflow: hidden;
 }
