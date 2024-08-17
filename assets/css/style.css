@@ -1032,7 +1032,7 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 50px;
-    overflow: auto;
+    overflow: unset;
   }
 
   #cloth_divider {
@@ -1050,6 +1050,7 @@ footer {
 
   .cards {
     justify-content: unset;
+    overflow: auto;
   }
 
   .card_image {
