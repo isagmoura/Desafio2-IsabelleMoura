@@ -1255,12 +1255,15 @@ footer {
     font-weight: 700;
     line-height: 36px;
     text-align: left;
+    min-width: unset;
     width: 286px;
     height: 72px;
+    padding-left: 0rem;
   }
 
   #arrows {
     align-items: end;
+    padding-right: 0;
   }
 
   .comment {
