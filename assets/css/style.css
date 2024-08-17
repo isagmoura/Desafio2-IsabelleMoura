@@ -664,6 +664,10 @@ main {
   border: none;
 }
 
+#subscribe-feedback {
+  color: white;
+}
+
 #subscribe a {
   text-decoration: none;
   font-family: "Satoshi", sans-serif;
@@ -1338,6 +1342,15 @@ footer {
     width: 311px;
     height: 42px;
     border-radius: 62px;
+  }
+
+  #subscribe-feedback {
+    width: 297px;
+    height: 94px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
   }
 
   #footer_contacts {

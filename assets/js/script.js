@@ -8,3 +8,24 @@ function menuShow() {
     document.querySelector(".icon").src = "assets/img/close2.png";
   }
 }
+
+function subscribeToNewsletter(e) {
+  e.preventDefault();
+
+  const userEmail = document.getElementById("user-email").value;
+  const message = `Thank you for subscribing to ours Newsletter. We'll send you news on ${userEmail}.`;
+
+  const subscribeFeedback = document.createElement("span");
+  subscribeFeedback.id = "subscribe-feedback";
+  subscribeFeedback.innerText = message;
+
+  const formContainer = document.getElementById("form");
+  formContainer.replaceChildren(subscribeFeedback);
+}
+
+function init() {
+  const subscribeToNewsletterForm = document.getElementById("newsletter-form");
+  subscribeToNewsletterForm.addEventListener("submit", subscribeToNewsletter);
+}
+
+init();

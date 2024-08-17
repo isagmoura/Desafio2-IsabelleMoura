@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
     <title>Desafio 2 - Isabelle Moura</title>
   </head>
   <body>
@@ -471,25 +471,27 @@
           <h2 id="h2-form-stay">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
         </div>
         <div id="form">
-          <form action="#">
+          <form id="newsletter-form">
             <div class="search">
               <img
                 class="search-icon"
+                id="email"
                 src="assets/img/caixa_email.png"
                 alt="email icon"
               />
+
               <input
-                type="text"
+                type="email"
                 name="search"
                 class="search-input"
+                id="user-email"
                 placeholder="Enter your email address"
+                required
               />
             </div>
-            <div class="btns">
-              <button id="subscribe">
-                <a href="#">Subscribe to Newsletter</a>
-              </button>
-            </div>
+            <button type="submit" id="subscribe">
+              Subscribe to Newsletter
+            </button>
           </form>
         </div>
       </section>
