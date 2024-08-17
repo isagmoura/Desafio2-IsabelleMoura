@@ -5,7 +5,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Satoshi", "Integral CF Bold", "Integral CF Regular", sans-serif;
+  font-family: "Satoshi", sans-serif;
   box-sizing: border-box;
 }
 
@@ -685,6 +685,7 @@ footer {
   justify-content: space-between;
   gap: 113.5px;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 #footer_contacts {
@@ -775,30 +776,7 @@ footer {
   text-decoration: none;
 }
 
-.company {
-  list-style: none;
-  width: 91px;
-  height: 146px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.help {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.faq {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.resources {
+.ul_footer_list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -877,7 +855,6 @@ footer {
   #first-order {
     display: flex;
     justify-content: center;
-    width: 301px;
     height: 16px;
   }
 
@@ -914,7 +891,7 @@ footer {
     background-image: url(../img/home-couple-390px.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 40% 105%;
+    background-position: 40% 109%;
   }
 
   #main_content {
@@ -978,7 +955,6 @@ footer {
   }
 
   .main_list_divider:last-of-type {
-    border-color: red;
     display: none;
   }
 
@@ -993,11 +969,14 @@ footer {
   #brands {
     padding-left: 1rem;
     padding-right: 1rem;
-    display: flex;
+    height: unset;
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 21px;
     align-items: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    column-gap: 34px;
   }
 
   #versace {
@@ -1030,7 +1009,7 @@ footer {
 
   #new_arrivals {
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0rem;
     padding-top: 50px;
     overflow: unset;
   }
@@ -1113,7 +1092,7 @@ footer {
 
   #top_selling {
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0rem;
   }
 
   .button-container {
@@ -1401,7 +1380,6 @@ footer {
     width: 357px;
     height: 40px;
     padding-top: 20px;
-    font-family: "Satoshi", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -1414,47 +1392,26 @@ footer {
     gap: 12px;
   }
 
-  .company {
-    list-style: none;
-    width: 91px;
-    height: 146px;
+  .ul_footer_list {
+    flex: 1;
+    text-wrap: nowrap;
+    gap: 9px;
   }
 
-  .help {
-    list-style: none;
-    width: 121px;
-    height: 146px;
-    justify-content: space-between;
-  }
-
-  .help li {
-    width: 100%;
-    min-width: 121px;
-    font-family: "Satoshi", sans-serif;
+  .footer-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
-    gap: 0;
   }
 
   .h3_footer_list {
-    width: 88px;
-    height: 18px;
-    font-family: "Satoshi", sans-serif;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 3px;
     text-align: left;
     color: rgba(0, 0, 0, 1);
-  }
-
-  .faq {
-    list-style: none;
-  }
-
-  .resources {
-    list-style: none;
+    padding-bottom: 5px;
   }
 
   #footer-end {
@@ -1475,7 +1432,6 @@ footer {
   #copyright {
     width: 269px;
     height: 19px;
-    font-family: "Satoshi", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18.9px;
