@@ -13,7 +13,7 @@ function subscribeToNewsletter(e) {
   e.preventDefault();
 
   const userEmail = document.getElementById("user-email").value;
-  const message = `Thank you for subscribing to ours Newsletter. We'll send you news on ${userEmail}.`;
+  const message = `Thank you for subscribing to our Newsletter. We'll send you news on ${userEmail}.`;
 
   const subscribeFeedback = document.createElement("span");
   subscribeFeedback.id = "subscribe-feedback";
