@@ -700,6 +700,7 @@ main {
   font-weight: 600;
   line-height: 21.6px;
   color: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
 #subscribe-feedback {
@@ -834,6 +835,79 @@ footer {
   padding-right: 6.25rem;
   overflow: hidden;
   padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1920px) {
+  .h2-logo {
+    font-size: 3rem;
+  }
+
+  main {
+    height: 860px;
+  }
+
+  .title {
+    font-size: 80px;
+    max-width: 700px;
+  }
+
+  .description {
+    font-size: 18px;
+    max-width: 700px;
+  }
+
+  #shop-now {
+    height: 60px;
+  }
+
+  .btn-default {
+    font-size: 18px;
+  }
+
+  #cta {
+    gap: 20px;
+  }
+
+  #home {
+    gap: 64px;
+  }
+
+  #main_list_home {
+    max-width: 700px;
+  }
+
+  .h2_main_list {
+    font-size: 48px;
+  }
+
+  .main_li {
+    font-size: 18px;
+  }
+
+  #styles {
+    padding-left: 17.6%;
+    padding-right: 17.6%;
+  }
+
+  #footer_middle {
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  #footer-logo {
+    font-size: 3rem;
+  }
+
+  #footer-p {
+    min-width: 400px;
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  #footer_social_media {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
