@@ -99,6 +99,7 @@
   font-size: 1rem;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .input-wrapper {
@@ -352,6 +353,12 @@ main {
   text-align: left;
   color: rgba(0, 0, 0, 1);
   padding-top: 10px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 
 .stars {
@@ -1273,8 +1280,8 @@ footer {
     font-weight: 700;
     line-height: 22px;
     text-align: left;
-    padding-bottom: 8px;
     align-items: center;
+    padding-top: 5px;
   }
 
   .avaliacao {
