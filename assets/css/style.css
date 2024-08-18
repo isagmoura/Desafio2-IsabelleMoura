@@ -556,6 +556,14 @@ main {
   padding-right: 6.25rem;
 }
 
+#arrows img {
+  cursor: pointer;
+  transition: scale 0.1s ease-in-out;
+}
+#arrows img:hover {
+  scale: 1.1;
+}
+
 .comment {
   display: flex;
   flex-direction: column;
