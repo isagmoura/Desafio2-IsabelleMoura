@@ -580,6 +580,12 @@ main {
   display: flex;
   justify-content: center;
   gap: 20px;
+  transition: transform 0.5s ease-in;
+}
+
+.comment:nth-child(2),
+.comment:nth-last-child(2) {
+  filter: blur(1px);
 }
 
 #h2_comments {
@@ -1267,7 +1273,7 @@ footer {
 
   .comment {
     min-width: 358px;
-    height: 186.19px;
+    height: 210px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 24px;
@@ -1295,10 +1301,6 @@ footer {
     line-height: 20px;
     text-align: left;
     min-width: 283px;
-  }
-
-  #section_of_comments {
-    justify-content: unset;
   }
 
   .check {
