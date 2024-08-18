@@ -414,9 +414,10 @@ main {
   text-decoration: none;
   font-family: "Satoshi", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 21.6px;
   text-align: left;
+  color: rgba(0, 0, 0, 1);
 }
 
 #casual {
