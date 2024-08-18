@@ -1077,11 +1077,13 @@ footer {
   }
 
   .preco-cortado {
-    width: 42px;
+    width: 51px;
     height: 20px;
   }
 
   .price {
+    width: 45px;
+    height: 27px;
     font-family: Satoshi;
     font-size: 20px;
     font-weight: 700;
@@ -1090,7 +1092,7 @@ footer {
   }
 
   .promotion {
-    gap: 5px;
+    gap: 8px;
   }
 
   .discount-button {
