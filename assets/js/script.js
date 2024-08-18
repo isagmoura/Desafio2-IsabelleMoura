@@ -9,6 +9,12 @@ function menuShow() {
   }
 }
 
+function closeSignUpBar(e) {
+  e.preventDefault();
+  const closeSignUp = document.getElementById("first_order");
+  closeSignUp.remove();
+}
+
 function subscribeToNewsletter(e) {
   e.preventDefault();
 
@@ -26,6 +32,9 @@ function subscribeToNewsletter(e) {
 function init() {
   const subscribeToNewsletterForm = document.getElementById("newsletter-form");
   subscribeToNewsletterForm.addEventListener("submit", subscribeToNewsletter);
+
+  const closeXBar = document.getElementById("x_close_button");
+  closeXBar.addEventListener("click", closeSignUpBar);
 }
 
 init();

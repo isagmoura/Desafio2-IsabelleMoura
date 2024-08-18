@@ -662,6 +662,10 @@ main {
   border-radius: 62px;
   background-color: rgba(255, 255, 255, 1);
   border: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgba(0, 0, 0, 1);
 }
 
 #subscribe-feedback {
@@ -1338,10 +1342,18 @@ footer {
     border-radius: 62px;
   }
 
+  .search-input,
+  .search-input::placeholder {
+    font-size: 14px;
+  }
+
   #subscribe {
     width: 311px;
     height: 42px;
     border-radius: 62px;
+    align-items: center;
+    line-height: 18.9px;
+    font-size: 14px;
   }
 
   #subscribe-feedback {
