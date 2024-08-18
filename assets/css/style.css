@@ -533,6 +533,17 @@ main {
   padding-right: 64px;
 }
 
+#first_group div,
+#second_group div {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+#first_group div:hover,
+#second_group div:hover {
+  transform: scale(1.01);
+}
+
 #comments {
   padding-left: 0rem;
   padding-right: 0rem;
