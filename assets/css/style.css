@@ -586,7 +586,7 @@ main {
 
 .comment:nth-child(2),
 .comment:nth-last-child(2) {
-  filter: blur(1px);
+  filter: blur(2px);
 }
 
 #h2_comments {
