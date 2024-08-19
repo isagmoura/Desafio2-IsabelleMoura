@@ -1545,6 +1545,7 @@ footer {
     line-height: 18.9px;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
+    text-wrap: nowrap;
   }
 
   #footer_payments {
