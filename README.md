@@ -1,5 +1,6 @@
 # Desafio2-IsabelleMoura
 🛍️ Ecommerce Web Page
+
 Este projeto foi desenvolvido para consolidar os conhecimentos em desenvolvimento front-end com HTML, CSS e JavaScript, criando uma HomePage funcional e responsiva para um ecommerce.
 
 ⚙️ Funcionalidades
