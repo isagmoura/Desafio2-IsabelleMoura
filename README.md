@@ -9,7 +9,8 @@ Criação de uma HomePage dinâmica e moderna para um ecommerce.
 Menus interativos e funcionais.
 Campo de preenchimento de Newsletter com validação de e-mail.
 Design responsivo, garantindo uma boa experiência em dispositivos móveis e desktops.
-Navegue pela HomePage e interaja com os menus e o campo de Newsletter.
 
+🚀Acessando o Projeto
 
+Clique no link abaixo, navegue pela HomePage e interaja com os menus e o campo de Newsletter.
 https://isagmoura.github.io/Desafio2-IsabelleMoura/
