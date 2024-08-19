@@ -13,4 +13,5 @@ Design responsivo, garantindo uma boa experiência em dispositivos móveis e des
 🚀Acessando o Projeto
 
 Clique no link abaixo, navegue pela HomePage e interaja com os menus e o campo de Newsletter.
+
 https://isagmoura.github.io/Desafio2-IsabelleMoura/
